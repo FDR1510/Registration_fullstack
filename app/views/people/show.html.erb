@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Full name:</strong>
+  <%= @person.full_name %>
+</p>
+
+<p>
+  <strong>Street address:</strong>
+  <%= @person.street_address %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @person.city %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @person.state %>
+</p>
+
+<p>
+  <strong>Postal code:</strong>
+  <%= @person.postal_code %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @person.country %>
+</p>
+
+<p>
+  <strong>Email address:</strong>
+  <%= @person.email_address %>
+</p>
+
+<p>
+  <strong>Username:</strong>
+  <%= @person.username %>
+</p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @person.password %>
+</p>
+
+<%= link_to 'Edit', edit_person_path(@person) %> |
+<%= link_to 'Back', people_path %>
